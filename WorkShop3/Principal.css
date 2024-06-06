@@ -1,0 +1,40 @@
+/* Color para los fondos principales -- Pseudo class */
+:root {
+    --fondos : #DEE6EA; 
+    --letras : black;
+    --titulo_principal : #DEE6EA;
+    --fondo_azul : #213171;
+}
+
+/* Color para el h1 */
+h1 {
+    background-color: var(--fondo_azul);
+    color : var(--titulo_principal);
+}
+
+div.contenedor  > h2 {
+    color: var(--letras);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.contenedor > a {
+    color: var(--letras);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.logo > img {
+    width: 400px;
+    height: 350px;
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+div {
+    text-align: center;
+}
+body {
+    background-color: var(--fondos);
+}
