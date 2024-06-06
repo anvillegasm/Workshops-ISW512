@@ -35,6 +35,14 @@ div.logo > img {
 div {
     text-align: center;
 }
+
 body {
     background-color: var(--fondos);
 }
+
+/* ------------------------------------------- Bibliography -------------------------------------------*/
+
+div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

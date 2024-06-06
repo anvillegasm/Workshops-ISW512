@@ -1,8 +1,69 @@
-.nav {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
     padding-left: 5%;
-    background-color: red;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: #162463;
+}
+
+h1 {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 45px;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px ;
+}
+
+/* Cambiar el color a los titulitos cuando se posicionan sobre él*/
+nav a:hover{
+    color: #D3C4C7;
+}
+
+/* Estilos para el contenedor */
+.container {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; 
+}
+
+/* Estilos para el título */
+.container h2 {
+    color: #162463;
+    font-size: 50px;
+}
+
+/* Estilos para la imagen */
+.container img {
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+
 }
