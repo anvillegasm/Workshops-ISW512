@@ -15,17 +15,17 @@ h1 {
     font-size: 45px;
 }
 
-nav img {
+nav  img {
     width: 100px;
     height: 100px;
 }
 
-ul li {
+ul  li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-nav a {
+nav  a {
     color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -39,22 +39,43 @@ nav a:hover{
 
 /* Estilos para el contenedor */
 .container {
-    display: flex; /* Utiliza flexbox para alinear los elementos */
-    justify-content: space-between; /* Distribuye el espacio entre los elementos */
-    align-items: center; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: stretch; 
+    height: 100vh; 
+}
+
+/* Estilos para el contenido de texto */
+.text-content {
+    max-width: 50%; 
+    padding: 20px; 
 }
 
 /* Estilos para el título */
 .container h2 {
     color: #162463;
     font-size: 50px;
+    margin-bottom: 10px; /* Añade un margen inferior para separar el título del párrafo */
+}
+
+/* Estilos para el párrafo */
+.container p {
+    font-size: 18px;
+    line-height: 1.6; /* Aumenta la altura de línea para mejorar la legibilidad */
+}
+
+/* Estilos para el contenedor de la imagen */
+.image-container {
+    flex-grow: 1; 
+    display: flex;
+    align-items: center; 
 }
 
 /* Estilos para la imagen */
 .container img {
-    width: 500px; 
-    height: 500px; 
-    object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
 
 h2{
@@ -62,8 +83,14 @@ h2{
     color: white;
 }
 
-.btn {
+div > a {
     text-decoration: none;
-    color: black;
-
+    color: #162463;
 }
+
+
+
+
+
+
+
