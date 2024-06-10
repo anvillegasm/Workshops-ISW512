@@ -34,15 +34,13 @@ header {
     color: #162463;
 }
 
-/* NOTICIA */
-
-/*
-video {
-    width: 500px;
-    height: 500px;
+h2 {
+    color: #162463;
+    margin-bottom: 0px;
 }
 
-*/
+/* NOTICIA 1 */
+
 .contenedor-noticia {
     display: flex;
     justify-content: space-between;
@@ -64,3 +62,18 @@ video {
     padding: 0 20px; 
     text-align: justify;
 }
+
+/* NOTICIA 2 */
+
+video {
+    width: 550px;
+    height: 550px;
+    margin-top: 0px;
+
+}
+
+.contenedor-vtexto {
+   text-align: center;
+
+}
+
