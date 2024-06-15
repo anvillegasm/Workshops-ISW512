@@ -42,8 +42,8 @@ h2 {
 /* NOTICIA 1 */
 
 .contenedor-noticia {
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* Modelo de caja*/
+    justify-content: space-between; 
     align-items: center;
     margin-bottom: 20px; 
 }
@@ -58,8 +58,8 @@ h2 {
 }
 
 .texto-noticia {
-    flex: 2; 
-    padding: 0 20px; 
+    flex: 2; /*Doble espacio entre elementos*/
+    padding: 0 20px; /*agregar espacio dentro de los bordes*/
     text-align: justify;
 }
 
@@ -74,6 +74,5 @@ video {
 
 .contenedor-vtexto {
    text-align: center;
-
 }
 
