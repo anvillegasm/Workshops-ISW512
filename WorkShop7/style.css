@@ -1,0 +1,183 @@
+/* Variables */
+:root {
+    --letra: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    --blanco: white;
+    --amarillo: yellow;
+    --naranja: orange;
+    --rosado: pink;
+    --azul1: #041658;
+    --azul2: #21347B;
+    --azul3: #4054A0;
+
+}
+
+body {
+    margin: 1%;
+}
+
+@media only screen and (min-width: 601px) {
+
+    h1 {
+        font-family: var(--letra);
+
+    }
+
+    .p-1 {
+        font-family: var(--letra);
+        font-size: medium;
+    }
+
+    /* Div amarillo */
+    .div-yellow {
+        background-color: var(--amarillo);
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .general {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .general>div {
+        flex: 1;
+        margin: 1.1%;
+    }
+
+    /* Div naranja 936*/
+    .orange-200 {
+        background-color: var(--naranja);
+        border-radius: 10px;
+        padding: 4px;
+        height: 90px;
+    }
+
+    .orange-200>a {
+        display: block;
+        margin-top: 1%;
+        color: var(--azul1);
+        font-family: var(--letra);
+    }
+
+    /* Div naranja no mostrarlo*/
+    .orange-600 {
+        display: none;
+    }
+
+    /* Div azul 1 (examples)*/
+    .div-blue1 {
+        background-color: var(--azul1);
+        border-radius: 10px;
+        padding: 2px;
+        margin-left: 2%;
+        height: 200px;
+        color: var(--blanco);
+        font-family: var(--letra);
+    }
+
+    /* Div azul 2 (Tutorial) */
+    .div-blue2 {
+        background-color: var(--azul2);
+        border-radius: 10px;
+        padding: 2px;
+        margin-left: 2%;
+        height: 150px;
+        color: var(--blanco);
+        font-family: var(--letra);
+
+    }
+
+    /* Div azul 3 (Tools)*/
+    .div-blue3 {
+        background-color: var(--azul3);
+        border-radius: 10px;
+        padding: 2px;
+        margin-top: 2%;
+        color: var(--blanco);
+        font-family: var(--letra);
+    }
+
+    footer {
+        background-color: var(--rosado);
+        border-radius: 8px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-family: var(--letra);
+
+    }
+
+    .p-1 {
+        font-family: var(--letra);
+        font-size: medium;
+    }
+
+    /* Div amarillo */
+    .div-yellow {
+        background-color: var(--amarillo);
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 10px;
+
+    }
+
+    /*Div naranja 600*/
+    .orange-600 {
+        background-color: var(--naranja);
+        border-radius: 10px;
+        padding: 2px;
+        height:30px;
+        margin-top: 10px;
+
+    }
+
+    /* Div naranja no mostrarlo*/
+    .orange-200 {
+        display: none;
+    }
+
+    /* Div azul 1 (examples)*/
+    .div-blue1 {
+        background-color: var(--azul1);
+        border-radius: 10px;
+        padding: 2px;
+        margin-top: 2%;
+        color: var(--blanco);
+        font-family: var(--letra);
+        margin-top: 10px;
+    }
+
+    /* Div azul 2 (Tutorial) */
+    .div-blue2 {
+        background-color: var(--azul2);
+        border-radius: 10px;
+        padding: 2px;
+        margin-top: 2%;
+        color: var(--blanco);
+        font-family: var(--letra);
+        margin-top: 10px;
+
+    }
+
+    /* Div azul 3 (Tools )*/
+    .div-blue3 {
+        background-color: var(--azul3);
+        border-radius: 10px;
+        padding: 2px;
+        margin-top: 2%;
+        color: var(--blanco);
+        font-family: var(--letra);
+        margin-top: 10px;
+
+    }
+
+    footer {
+        background-color: var(--rosado);
+        border-radius: 8px;
+    }
+
+}
